@@ -22,3 +22,24 @@ workflows:
 #          branches:
 #            # Forked pull requests have CIRCLE_BRANCH set to pull/XXX
 #            ignore: /pull\/[0-9]+/
+
+# Do users have to create PRs from forked repos?
+# What is their process for merging PRs?
+# If that's the case:
+# PR will not build unless the forked repo is being followed
+# Other option, if you don't want to run forked pull requests
+
+
+# Is there an automated way to unseat a user? 
+# Can you stop a build in progress if it's consuming too many credits?
+# Can I cancel a build with the API?
+
+
+# Notifications for triggers
+
+# Threshold for cost of the build
+# /project/:vcs-type/:username/:project/:build_num/cancel
+# Can I pause a build?
+# If it's cancelled, can you rerun from the cancelled step?
+# Remove a user seat, can they unblock the user?
+# Can the config differentiate 
