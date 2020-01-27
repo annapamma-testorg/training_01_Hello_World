@@ -5,7 +5,13 @@ jobs:
     docker:
       - image: "circleci/node:9.6.1"
     steps:
-      - run: echo 'hello world'
+      - run: |
+          echo 'hello world'
+          echo $CIRCLE_SHA1
+          echo $CIRCLE_WORKING_DIRECTORY
+          echo $CIRCLE_WORKING_DIRECTORY
+          echo $HOME
+          echo $HOME
 #  build-pr:
 #    docker:
 #      - image: "circleci/node:9.6.1"
